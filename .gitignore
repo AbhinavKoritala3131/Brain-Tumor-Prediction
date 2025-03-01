@@ -1,1 +1,65 @@
+# macOS system files
 .DS_Store
+
+# Windows system files
+Thumbs.db
+ehthumbs.db
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.env
+env/
+.venv/
+
+# Jupyter Notebooks Checkpoints
+.ipynb_checkpoints/
+
+# Logs and temp files
+*.log
+*.tmp
+*.bak
+*.swp
+
+# IDE/Editor files
+.vscode/
+.idea/
+*.iml
+
+# Virtual environments
+env/
+venv/
+
+# Build artifacts and distribution files
+build/
+dist/
+*.egg-info/
+*.gem
+*.deb
+*.tar.gz
+*.tgz
+
+# Dataset and model files (avoid tracking large data files)
+data/
+models/
+
+# Glob files - Sometimes can generate temp files
+glob_results/
+
+# TensorFlow, Keras, and other machine learning model files
+*.h5
+*.ckpt
+*.pb
+
+# Output directories (if any)
+outputs/
+
+# Docker-related files
+docker-compose.override.yml
+
+# Hidden files/folders from other tools
+*.sublime-workspace
+*.sublime-project
+*.vscode/
